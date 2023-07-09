@@ -8,8 +8,6 @@ function Header() {
 
   const handleMobileMenuToggle = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
-    // Toggle body scroll
-    document.body.classList.toggle('overflow-hidden');
   };
 
   const handleModalOpen = () => {
@@ -24,13 +22,13 @@ function Header() {
   const scrollToProjectSection = () => {
     const projectSection = document.getElementById('project-section');
     if (projectSection) {
-      projectSection.scrollIntoView({ behavior: 'smooth' });
+      projectSection.scrollIntoView();
       setMobileMenuOpen(false); // Close mobile menu after clicking on "Project" button
     }
   };
 
   return (
-    <div className="flex flex-row w-full items-center justify-between md:py-[40px] py-[20px] container">
+    <div className="flex flex-row w-full items-center justify-between md:py-[40px] py-[20px] container z-50">
       <Link href="/" onClick={() => setMobileMenuOpen(false)} className="text-[24px] font-bold">
         Jacob Rotich
       </Link>
