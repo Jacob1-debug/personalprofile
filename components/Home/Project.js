@@ -31,7 +31,7 @@ function Project() {
           </div>
           <img
             className="h-[450px] lg:w-[496px] object-cover md:w-[350px] w-full"
-            src="../assets/info-vap-image.png"
+            src="../assets/info-vap-img.png"
           />
         </div>
         <div className="flex flex-col md:w-auto w-full md:flex-row-reverse shadow rounded-[24px] overflow-hidden custom-shadow-color mx-auto">
