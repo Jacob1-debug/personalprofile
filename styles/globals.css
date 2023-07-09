@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+body{
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.custom-shadow-color {
+  box-shadow: 0px 6px 64px 0px #7090B01A;
+
+}
