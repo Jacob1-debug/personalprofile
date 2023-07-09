@@ -33,7 +33,7 @@ const ContactUsModal = ({ isOpen, onClose }) => {
       }).then((res) => res.json());
 
       if (response.success) {
-        setSuccessMessage(`${name}, thank you! We will contact you soon.`);
+        setSuccessMessage(`${name}, Thank you! I will contact you soon`);
         setName('');
         setEmail('');
         setMessage('');
@@ -74,7 +74,7 @@ const ContactUsModal = ({ isOpen, onClose }) => {
       >
         <div className="p-6">
           <div className="flex pb-4 flex-row justify-between items-center">
-            <h2 className="text-xl font-semibold ">Contact Us</h2>
+            <h2 className="text-xl font-semibold ">Contact Me</h2>
             <button
               type="button"
               className="text-gray-600 hover:text-gray-800"

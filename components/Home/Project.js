@@ -10,7 +10,7 @@ function Project() {
       <div className="w-20 h-1 mx-auto bg-yellow-400 rounded-2"></div>
       <div className="flex flex-col md:gap-[100px] gap-[50px] mt-[50px]">
         <div className="flex flex-col md:w-auto w-full md:flex-row shadow rounded-[24px] overflow-hidden custom-shadow-color mx-auto ">
-          <div className="flex flex-col lg:h-[524px] justify-center lg:px-[36px] md:px-3 p-4 md:md:w-[496px] items-start gap-6">
+          <div className="flex flex-col lg:h-[450px] justify-center lg:px-[36px] md:px-3 p-4 md:md:w-[496px] items-start gap-6">
             <h3 className="lg:text-[40px] text-[30px] font-bold">
               Infovap - a website
             </h3>
@@ -19,7 +19,7 @@ function Project() {
               disability in Kenya to access voter information effectively.
             </p>
             
-            <button className="py-2 relative md:m-0 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
+            <button className="py-2 relative md:m-0 hover:scale-110 transition duration-300 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
               <Link
                 href=" https://info-vap-2.vercel.app/"
                 target="_blank"
@@ -30,12 +30,12 @@ function Project() {
             </button>
           </div>
           <img
-            className="h-[524px] lg:w-[496px] md:w-[350px] w-full"
-            src="../assets/info-vap.svg"
+            className="h-[450px] lg:w-[496px] object-cover md:w-[350px] w-full"
+            src="../assets/info-vap.png"
           />
         </div>
         <div className="flex flex-col md:w-auto w-full md:flex-row-reverse shadow rounded-[24px] overflow-hidden custom-shadow-color mx-auto">
-          <div className="flex flex-col lg:h-[524px] justify-center lg:px-[36px] md:px-3 p-4  md:w-[496px] items-start gap-6">
+          <div className="flex flex-col lg:h-[450px] justify-center lg:px-[36px] md:px-3 p-4  md:w-[496px] items-start gap-6">
             <h3 className="lg:text-[40px] text-[30px] font-bold">
               Data Science
             </h3>
@@ -45,7 +45,7 @@ function Project() {
               always willing to learn more.
             </p>
 
-            <button className="py-2 relative md:m-0 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
+            <button className="py-2 relative md:m-0 hover:scale-110 transition duration-300 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
               <Link
                 href="https://medium.com/@rotich-95982/using-machine-learning-to-analyze-famous-speeches-e90ee385dc1b"
                 target="_blank"
@@ -56,12 +56,12 @@ function Project() {
             </button>
           </div>
           <img
-            className="h-[524px] lg:w-[496px] md:w-[350px] w-full"
+            className="h-[450px] lg:w-[496px] md:w-[350px] w-full"
             src="../assets/data-science.png"
           />
         </div>
         <div className="flex flex-col md:w-auto w-full md:flex-row shadow rounded-[24px] overflow-hidden custom-shadow-color mx-auto">
-          <div className="flex flex-col lg:h-[524px] justify-center lg:px-[36px] md:px-3 p-4  md:w-[496px] items-start gap-6">
+          <div className="flex flex-col lg:h-[450px] justify-center lg:px-[36px] md:px-3 p-4  md:w-[496px] items-start gap-6">
             <h3 className="lg:text-[40px] text-[30px] font-bold">Instructor</h3>
             <p className="text-[#828282] text-[18px] font-normal leading-9">
               I have worked as a teaching assistant at Minerva as a complex
@@ -69,7 +69,7 @@ function Project() {
               Math instructor at Sponsors .at Educational Opportunity and helped
               develop a document to help students be better at Math.{" "}
             </p>
-            <button className="py-2 relative md:m-0 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
+            <button className="py-2 relative md:m-0 hover:scale-110 transition duration-300 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
               <Link
                 href="https://drive.google.com/file/d/1I3fqFaWz0FV1qSRQrBmD4S1hLAlzenRd/view?usp=sharing"
                 target="_blank"
@@ -80,12 +80,12 @@ function Project() {
             </button>
           </div>
           <img
-            className="h-[524px] lg:w-[496px] md:w-[350px] w-full"
+            className="h-[450px] lg:w-[496px] object-cover md:w-[350px] w-full"
             src="../assets/instructor.svg"
           />
         </div>
         <div className="flex flex-col md:w-auto w-full md:flex-row-reverse shadow rounded-[24px] overflow-hidden custom-shadow-color mx-auto">
-          <div className="flex flex-col lg:h-[524px] justify-center lg:px-[36px] md:px-3 p-4  md:w-[496px] items-start gap-6">
+          <div className="flex flex-col lg:h-[450px] justify-center lg:px-[36px] md:px-3 p-4  md:w-[496px] items-start gap-6">
             <h3 className="lg:text-[40px] text-[30px] font-bold">
               Poverty reduction - A book
             </h3>
@@ -93,7 +93,7 @@ function Project() {
               For a personal project I am writing a book to suggest how Kenya
               can propel itself from poverty.
             </p>
-            <button className="py-2 relative md:m-0 mx-auto border-[#25282B] text-[18px] px-4 rounded-full border font-bold">
+            <button className="py-2 relative md:m-0 hover:scale-110 transition duration-300 mx-auto border-[#25282B]  text-[18px] px-4 rounded-full border font-bold">
               <Link
                 href="https://www.notion.so/what-can-propel-us-from-poverty-6842a98c6dab42af9265416c782f5814"
                 target="_blank"
@@ -104,7 +104,7 @@ function Project() {
             </button>
           </div>
           <img
-            className="h-[524px] lg:w-[496px] md:w-[350px] w-full"
+            className="h-[450px] object-cover lg:w-[496px] md:w-[350px] w-full"
             src="../assets/book.svg"
           />
         </div>
